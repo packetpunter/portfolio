@@ -1,0 +1,164 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Staatliches&display=swap');
+
+/* Define color variables for themeD2 */
+:root {
+  --brown-sugar: #b4654a;
+  --brown-sugar-transparent: rgba(180, 101, 74, 0.6);
+  --cadet-gray: #8aa2a9;
+  --marian-blue: #1E3888;
+  --dark-green: #00241b;
+  --giants-orange: #eb6534;
+
+  --background-color: var(--cadet-gray);
+  --heading-color: var(--marian-blue);
+  --text-color: var(--dark-green);
+  --link-color: var(--giants-orange);
+  --link-hover-color: var(--brown-sugar);
+  --text-background: var(--brown-sugar-transparent);
+}
+
+/* General Presentation Background */
+.reveal {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Slide Headings */
+.reveal h1 {
+  font-family: 'Staatliches', sans-serif;
+  color: var(--heading-color);
+  font-size: 5em;
+  font-weight: bold;
+  background-color: var(--text-background);
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  border-radius: 6px;
+}
+
+.reveal h2 {
+  font-family: 'Staatliches', sans-serif;
+  color: var(--heading-color);
+  font-size: 4em;
+  font-weight: bold;
+  background-color: var(--text-background);
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  border-radius: 6px;
+}
+
+.reveal h3, 
+.reveal h4, 
+.reveal h5, 
+.reveal h6 {
+  font-family: 'Staatliches', sans-serif;
+  color: var(--heading-color);
+  font-size: 3.2em;
+  background-color: var(--text-background);
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* Paragraphs and Text */
+.reveal p, 
+.reveal li, 
+.reveal blockquote, 
+.reveal code, 
+.reveal table {
+  background-color: var(--text-background);
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 2em;
+}
+
+/* Links */
+.reveal a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.reveal a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Strong (bold text) */
+.reveal strong {
+  color: var(--marian-blue);
+}
+
+/* Code blocks */
+.reveal code {
+  font-family: 'Open Sans', sans-serif;
+  background: #f4f4f4;
+  color: var(--giants-orange);
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 1.8em;
+}
+
+/* Blockquotes */
+.reveal blockquote {
+  border-left: 8px solid var(--giants-orange);
+  margin: 1.5em 0;
+  padding-left: 1em;
+  color: var(--brown-sugar);
+  font-style: italic;
+  font-size: 2em;
+}
+
+/* Highlighted Fragments */
+.reveal .fragment.highlight-current-green {
+  color: var(--dark-green);
+}
+
+.reveal .fragment.highlight-current-blue {
+  color: var(--marian-blue);
+}
+
+.reveal .fragment.highlight-current-orange {
+  color: var(--giants-orange);
+}
+
+.reveal .fragment.highlight-current-brown {
+  color: var(--brown-sugar);
+}
+
+/* Table Styling */
+.reveal table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 2em;
+}
+
+.reveal table, 
+.reveal th, 
+.reveal td {
+  border: 1px solid #ccc;
+}
+
+.reveal th, 
+.reveal td {
+  padding: 1em;
+}
+
+.reveal th {
+  background-color: var(--brown-sugar);
+  color: #ffffff;
+}
+
+.reveal tr:nth-child(even) {
+  background-color: rgba(138, 162, 169, 0.3);
+}
+
+/* Progress Bar */
+.reveal .progress {
+  background: rgba(138, 162, 169, 0.3);
+}
+
+.reveal .progress span {
+  background: var(--giants-orange);
+}
+

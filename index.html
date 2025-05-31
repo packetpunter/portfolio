@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="themeD3.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section data-transition="fade">
+                    <h1>Portfolio, 2025</h1><br />
+                    <br />
+                    <h3>by John Bell</h3><br />
+                    <h3>Prepared for ET-595 Capstone Project</h3>
+                </section>
+				<section data-transition="fade">
+                    <h2>About Me</h2>
+                    <br />
+                    <br />
+                    <h3>My name is John Bell, hello.</h3>
+                </section>
+                <section data-transition="fade">
+                    <h2> About Me</h2>
+                    <br />
+                    <br />
+                    <p class="r-frame">I'm a jack-of-all trades when it comes to technology. I've been working in the IT industry for 
+                    about a decade and a half, as of writing. I've become a Network Engineer at the University of New Mexico in the time I pursued a 
+                    Bachelors of Information and Communication Technology at New Mexico State University. I have pursued the Masters of IT program at NMSU similarly,
+                    and both have offered new knowledge into different areas of IT. </p>
+                </section>
+                <section data-transition="fade">
+                    <h2>About Me</h2>
+                    <br />
+                    <br />
+                    <p class="r-frame">My job history has included computer lab supervisor where I managed interns in the computer lab, as well as making minor apppearances in the information security field as well as the IT help desk.
+                    These degrees have enforced my skillsets in my career now, network engineering. I've been in this specific industry for about 8 years.
+                    </p>
+                </section>
+                <section data-transition="fade">Slide 3</section>
+				<section data-transition="fade">Slide 4</section>
+                <section data-transition="fade">Slide 5</section>
+                <section data-transition="fade">Slide 6</section>
+                <section data-transition="fade">Slide 7</section>
+                <section data-transition="fade">Slide 8</section>
+                <section data-transition="fade">Slide 9</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+                controls: true,
+                progress: true,
+                //history: true,
+                touch: true,
+                help: true,
+                mouseWheel: false,
+                
+                // Hide cursor if inactive
+                hideInactiveCursor: true,
+
+                // Time before the cursor is hidden (in ms)
+                hideCursorTime: 5000,
+                // https://revealjs.com/backgrounds/
+                // Parallax background image
+                parallaxBackgroundImage: 'images/background.png', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+
+                // Parallax background size
+                parallaxBackgroundSize: '4096px 928px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
+
+                // Number of pixels to move the parallax background per slide
+                // - Calculated automatically unless specified
+                // - Set to 0 to disable movement along an axis
+                parallaxBackgroundHorizontal:200,
+                parallaxBackgroundVertical:20,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
